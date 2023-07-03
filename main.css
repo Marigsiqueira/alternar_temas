@@ -26,20 +26,18 @@ li{
     --black: #000000;
 }
 
-.dark-theme{
-    --bg: var(--black);  /*bg é uma variável que define a cor da tela de fundo (backgroud) */
-    --fontColor: var(--green); /* fontColor é uma variável que define a cor da fonte */
-    --btnBg:var(--white);
-    --btnFontColor: var(--black);
-
-
-}
-
 .light-theme{
     --bg: var(--green);
     --fontColor: var(--black);
     --btnBg:var(--black);
     --btnFontColor: var(--white);
+}
+
+.dark-theme{
+    --bg: var(--black);  /*bg é uma variável que define a cor da tela de fundo (backgroud) */
+    --fontColor: var(--green); /* fontColor é uma variável que define a cor da fonte */
+    --btnBg:var(--white);
+    --btnFontColor: var(--black);
 }
 
 .btn{
