@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple website</title>
-    <link rel="stylesheet" href="main.css">
-    
+    <link rel="stylesheet" href="main.css">   
 </head>
-<body class="dark-theme">
+<body class="light-theme">
     <h1>Task List</h1>
     <p id="msg"> Minha lista:</p> <!--O atrubuto id na tag p é usado para estilizar um elemento-->
     <ul>
@@ -20,24 +19,7 @@
         <button class="btn" type="submit">Dark</button>
     </div>
 
-    <!--<script src="app.js"></script> -->
-    <!-- <noscript>You need to enable Javascript to view the full site</noscript>-->
-
-<script>
-const switcher = document.querySelector('.btn');
-
-switcher.addEventListener('click', function() {
-    document.body.classList.toggle('light-theme')
-
-    var className = (document.body.className);
-    if(className === 'dark-theme'){
-        this.textContent= 'light';
-    }
-    else{
-        this.textContent= 'dark';
-    }
-});
-</script>
+    <script src="app.js"></script>
     
 </body>
 </html>
